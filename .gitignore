@@ -1,0 +1,54 @@
+# ============================================================================
+# .gitignore — Oh Snap! Photobox (5 Cabang: Majenang, Cilacap, Pekalongan, Pemalang, Kediri)
+# ============================================================================
+
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+service-account*.json
+
+# Local Database & Runtime Storage
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+backend/storage/*.db
+backend/storage/runtime_records.json
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs & Debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build & Temporary Files
+dist/
+build/
+.cache/
+tmp/
+temp/
+*.prev
+*.bak
+
+# Editor & OS Directories
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini

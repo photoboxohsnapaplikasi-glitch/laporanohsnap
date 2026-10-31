@@ -1,0 +1,684 @@
+{
+  "meta": {
+    "app": "Oh Snap! Photobox — 5 Cabang",
+    "version": "2.5.0",
+    "timezone": "Asia/Jakarta (WIB)",
+    "generatedToday": "2026-10-31",
+    "generatedYesterday": "2026-10-30"
+  },
+  "branches": [
+    "Majenang",
+    "Cilacap",
+    "Pekalongan",
+    "Pemalang",
+    "Kediri"
+  ],
+  "schedules": {
+    "Cilacap": {
+      "Shift Pagi": {
+        "start": "10:00",
+        "end": "15:00",
+        "label": "10.00-15.00"
+      },
+      "Shift Sore": {
+        "start": "15:00",
+        "end": "20:00",
+        "label": "15.00-20.00"
+      }
+    },
+    "Majenang": {
+      "Shift Pagi": {
+        "start": "09:00",
+        "end": "14:30",
+        "label": "09.00-14.30"
+      },
+      "Shift Sore": {
+        "start": "14:30",
+        "end": "20:00",
+        "label": "14.30-20.00"
+      }
+    },
+    "Pekalongan": {
+      "Shift Pagi": {
+        "start": "09:30",
+        "end": "15:30",
+        "label": "09.30-15.30"
+      },
+      "Shift Sore": {
+        "start": "15:00",
+        "end": "21:00",
+        "label": "15.00-21.00"
+      }
+    },
+    "Pemalang": {
+      "Shift Pagi": {
+        "start": "08:40",
+        "end": "15:10",
+        "label": "08.40-15.10"
+      },
+      "Shift Middle": {
+        "start": "13:20",
+        "end": "19:40",
+        "label": "13.20-19.40"
+      },
+      "Shift Sore": {
+        "start": "14:50",
+        "end": "22:00",
+        "label": "14.50-22.00"
+      }
+    },
+    "Kediri": {
+      "Shift Pagi": {
+        "start": "09:30",
+        "end": "16:30",
+        "label": "09.30-16.30"
+      },
+      "Shift Middle": {
+        "start": "13:00",
+        "end": "20:00",
+        "label": "13.00-20.00"
+      },
+      "Shift Sore": {
+        "start": "15:10",
+        "end": "22:10",
+        "label": "15.10-22.10"
+      }
+    }
+  },
+  "closeRules": {
+    "Kediri": 7
+  },
+  "employees": [
+    {
+      "id": "emp-1",
+      "name": "Widia",
+      "password": "widia01",
+      "defaultBranch": "Majenang"
+    },
+    {
+      "id": "emp-2",
+      "name": "Silfi",
+      "password": "silfi02",
+      "defaultBranch": "Majenang"
+    },
+    {
+      "id": "emp-3",
+      "name": "Saskia",
+      "password": "saskia03",
+      "defaultBranch": "Cilacap"
+    },
+    {
+      "id": "emp-4",
+      "name": "Nazya",
+      "password": "nazya04",
+      "defaultBranch": "Cilacap"
+    },
+    {
+      "id": "emp-5",
+      "name": "Kholil",
+      "password": "kholil05",
+      "defaultBranch": "Pekalongan"
+    },
+    {
+      "id": "emp-6",
+      "name": "Firdaus",
+      "password": "firdaus06",
+      "defaultBranch": "Pekalongan"
+    },
+    {
+      "id": "emp-7",
+      "name": "Bunga",
+      "password": "bunga07",
+      "defaultBranch": "Pemalang"
+    },
+    {
+      "id": "emp-8",
+      "name": "Fadia",
+      "password": "fadia08",
+      "defaultBranch": "Pemalang"
+    },
+    {
+      "id": "emp-9",
+      "name": "Aji",
+      "password": "aji09",
+      "defaultBranch": "Pemalang"
+    },
+    {
+      "id": "emp-10",
+      "name": "Vino",
+      "password": "vino10",
+      "defaultBranch": "Kediri"
+    },
+    {
+      "id": "emp-11",
+      "name": "Kansa",
+      "password": "kansa11",
+      "defaultBranch": "Kediri"
+    },
+    {
+      "id": "emp-12",
+      "name": "Delisa",
+      "password": "delisa12",
+      "defaultBranch": "Kediri"
+    },
+    {
+      "id": "emp-13",
+      "name": "Rangga",
+      "password": "rangga13",
+      "defaultBranch": "Kediri"
+    },
+    {
+      "id": "emp-14",
+      "name": "Winaa",
+      "password": "winaa14",
+      "defaultBranch": "Kediri"
+    }
+  ],
+  "stockCatalog": [
+    {
+      "id": "stk-kertas",
+      "code": "BRG-001",
+      "name": "Kertas",
+      "category": "Bahan Cetak",
+      "unit": "Pax",
+      "incomingUnit": "Pax",
+      "minWarning": 50,
+      "type": "single"
+    },
+    {
+      "id": "stk-hangtag-kecil",
+      "code": "BRG-002",
+      "name": "Hangtag Kecil",
+      "category": "Aksesoris",
+      "unit": "Pcs",
+      "incomingUnit": "Pcs",
+      "minWarning": 50,
+      "type": "single"
+    },
+    {
+      "id": "stk-hangtag-besar",
+      "code": "BRG-003",
+      "name": "Hangtag Besar",
+      "category": "Aksesoris",
+      "unit": "Pcs",
+      "incomingUnit": "Pcs",
+      "minWarning": 50,
+      "type": "single"
+    },
+    {
+      "id": "stk-keychain-panjang",
+      "code": "BRG-004",
+      "name": "Keychain Panjang",
+      "category": "Aksesoris",
+      "unit": "Pcs",
+      "incomingUnit": "Pcs",
+      "minWarning": 50,
+      "type": "single"
+    },
+    {
+      "id": "stk-keychain-bulat",
+      "code": "BRG-005",
+      "name": "Keychain Bulat",
+      "category": "Aksesoris",
+      "unit": "Pcs",
+      "incomingUnit": "Pcs",
+      "minWarning": 50,
+      "type": "single"
+    },
+    {
+      "id": "stk-plastik-kecil",
+      "code": "BRG-006",
+      "name": "Plastik Kecil",
+      "category": "Kemasan",
+      "unit": "Ikat",
+      "incomingUnit": "Ikat",
+      "minWarning": 50,
+      "type": "single"
+    },
+    {
+      "id": "stk-plastik-besar",
+      "code": "BRG-007",
+      "name": "Plastik Besar",
+      "category": "Kemasan",
+      "unit": "Ikat",
+      "incomingUnit": "Ikat",
+      "minWarning": 50,
+      "type": "single"
+    },
+    {
+      "id": "stk-tinta-lm",
+      "code": "BRG-008",
+      "name": "Tinta LM (Light Magenta)",
+      "category": "Tinta & Habis Pakai",
+      "unit": "%",
+      "incomingUnit": "Botol",
+      "minWarning": 25,
+      "type": "single",
+      "inkColorCode": "LM"
+    },
+    {
+      "id": "stk-tinta-lc",
+      "code": "BRG-009",
+      "name": "Tinta LC (Light Cyan)",
+      "category": "Tinta & Habis Pakai",
+      "unit": "%",
+      "incomingUnit": "Botol",
+      "minWarning": 25,
+      "type": "single",
+      "inkColorCode": "LC"
+    },
+    {
+      "id": "stk-tinta-y",
+      "code": "BRG-010",
+      "name": "Tinta Y (Yellow)",
+      "category": "Tinta & Habis Pakai",
+      "unit": "%",
+      "incomingUnit": "Botol",
+      "minWarning": 25,
+      "type": "single",
+      "inkColorCode": "Y"
+    },
+    {
+      "id": "stk-tinta-m",
+      "code": "BRG-011",
+      "name": "Tinta M (Magenta)",
+      "category": "Tinta & Habis Pakai",
+      "unit": "%",
+      "incomingUnit": "Botol",
+      "minWarning": 25,
+      "type": "single",
+      "inkColorCode": "M"
+    },
+    {
+      "id": "stk-tinta-c",
+      "code": "BRG-012",
+      "name": "Tinta C (Cyan)",
+      "category": "Tinta & Habis Pakai",
+      "unit": "%",
+      "incomingUnit": "Botol",
+      "minWarning": 25,
+      "type": "single",
+      "inkColorCode": "C"
+    },
+    {
+      "id": "stk-tinta-k",
+      "code": "BRG-013",
+      "name": "Tinta K (Black)",
+      "category": "Tinta & Habis Pakai",
+      "unit": "%",
+      "incomingUnit": "Botol",
+      "minWarning": 25,
+      "type": "single",
+      "inkColorCode": "K"
+    },
+    {
+      "id": "stk-lem",
+      "code": "BRG-014",
+      "name": "Lem Ganci",
+      "category": "Perlengkapan Booth",
+      "unit": "Pcs",
+      "incomingUnit": "Pcs",
+      "minWarning": 50,
+      "type": "single"
+    }
+  ],
+  "deletedOpLogIds": [],
+  "opLogs": [
+    {
+      "id": "OP-101",
+      "recordType": "ABSEN_MUKA",
+      "subType": "MUKA_DATANG",
+      "label": "🤳 Absen Karyawan (Datang)",
+      "cabang": "Cilacap",
+      "tanggal": "2026-10-31",
+      "waktu": "09:54:12",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "10.00-15.00",
+      "punctualityStatus": "TEPAT WAKTU",
+      "punctualityDetail": "Tepat Waktu (Jadwal 10.00-15.00)",
+      "nama": "Saskia",
+      "lokasiWatermark": "2026-10-31 09:54:12 WIB • -7.727600, 109.007900",
+      "summary": "Absen Karyawan (Datang) • TEPAT WAKTU (Jadwal Shift Pagi: 10.00-15.00) • GPS (-7.727600, 109.007900)",
+      "catatan": "Hadir tepat waktu sebelum jam 10.00"
+    },
+    {
+      "id": "OP-102",
+      "recordType": "ABSEN_MUKA",
+      "subType": "MUKA_DATANG",
+      "label": "🤳 Absen Karyawan (Datang)",
+      "cabang": "Pemalang",
+      "tanggal": "2026-10-31",
+      "waktu": "08:52:05",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "08.40-15.10",
+      "punctualityStatus": "TELAT",
+      "punctualityDetail": "Telat 12 Menit (Jadwal 08.40-15.10)",
+      "nama": "Bunga",
+      "lokasiWatermark": "2026-10-31 08:52:05 WIB • -6.890600, 109.380800",
+      "summary": "Absen Karyawan (Datang) • TELAT 12 Menit (Jadwal Shift Pagi: 08.40-15.10) • GPS (-6.890600, 109.380800)",
+      "catatan": "Terlambat karena hujan deras"
+    },
+    {
+      "id": "OP-106",
+      "recordType": "ABSEN_MUKA",
+      "subType": "MUKA_PULANG",
+      "label": "🏡 Absen Karyawan (Pulang)",
+      "cabang": "Majenang",
+      "tanggal": "2026-10-31",
+      "waktu": "13:55:10",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "09.00-14.30",
+      "punctualityStatus": "BELUM MEMENUHI JAM KERJA",
+      "punctualityDetail": "Belum Memenuhi Jam Kerja — Masih Kurang 35 Menit (Pulang 13:55 sebelum Jadwal Pulang 14.30)",
+      "nama": "Widia",
+      "lokasiWatermark": "2026-10-31 13:55:10 WIB • -7.297500, 108.761200",
+      "summary": "Absen Karyawan (Pulang) • BELUM MEMENUHI JAM KERJA — Masih Kurang 35 Menit (Pulang 13:55 sebelum Jadwal Pulang 14.30) • GPS (-7.297500, 108.761200)",
+      "catatan": "Izin pulang lebih awal 35 menit"
+    },
+    {
+      "id": "OP-107",
+      "recordType": "OPEN_STORE",
+      "subType": "OPEN_BOOTH",
+      "label": "☀️ Open Store (2 Foto)",
+      "cabang": "Cilacap",
+      "tanggal": "2026-10-31",
+      "waktu": "09:56:00",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "10.00-15.00",
+      "nama": "Saskia",
+      "lokasiWatermark": "2026-10-31 09:56:00 WIB • -7.727600, 109.007900",
+      "summary": "2 Foto Open Store Lengkap (Kamera & Layar Sentuh Menyala Normal, Printer Foto & Lampu Studio Siap Pakai)",
+      "catatan": "Booth siap operasional pagi"
+    },
+    {
+      "id": "OP-103",
+      "recordType": "DAILY_REPORT",
+      "label": "📝 Laporan Keuangan Harian",
+      "cabang": "Cilacap",
+      "tanggal": "2026-10-31",
+      "waktu": "15:05:10",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "10.00-15.00",
+      "nama": "Saskia",
+      "cash": 950000,
+      "qris": 1250000,
+      "totalGross": 2200000,
+      "totalExpense": 65000,
+      "netOmzet": 2135000,
+      "expensesList": [
+        {
+          "desc": "Beli Tisu & Air Galon Booth",
+          "amount": 25000
+        },
+        {
+          "desc": "Amplop & Plastik Strip 4R",
+          "amount": 40000
+        }
+      ],
+      "rincianPengeluaran": "Beli Tisu & Air Galon Booth: Rp 25.000 | Amplop & Plastik Strip 4R: Rp 40.000",
+      "summary": "Cash: Rp 950.000 | QRIS: Rp 1.250.000 | Keluar: Rp 65.000 (Sheet Pengeluaran_Kas) | Bersih: Rp 2.135.000",
+      "catatan": "Mesin photobox & printer DNP lancar."
+    },
+    {
+      "id": "OP-105",
+      "recordType": "BARANG_DATANG",
+      "senderRole": "USER",
+      "label": "🚚 Barang Datang (Restock)",
+      "cabang": "Cilacap",
+      "tanggal": "2026-10-31",
+      "incomingDate": "2026-10-31",
+      "waktu": "11:20:00",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "10.00-15.00",
+      "nama": "Saskia",
+      "petugasBantu": "Nazya",
+      "incomingItemsDetail": [
+        {
+          "code": "BRG-001",
+          "name": "Kertas",
+          "category": "Bahan Cetak",
+          "unit": "Pax",
+          "stockBefore": 40,
+          "addedQty": 25,
+          "stockAfter": 65,
+          "hasAddition": true,
+          "detail": "+25 Botol/Pax (40 ➔ 65)"
+        },
+        {
+          "code": "BRG-004",
+          "name": "Keychain Panjang",
+          "category": "Aksesoris",
+          "unit": "Pcs",
+          "stockBefore": 10,
+          "addedQty": 20,
+          "stockAfter": 30,
+          "hasAddition": true,
+          "detail": "+20 Pcs (10 ➔ 30)"
+        },
+        {
+          "code": "BRG-008",
+          "name": "Tinta LM (Light Magenta)",
+          "category": "Tinta & Habis Pakai",
+          "unit": "Botol",
+          "stockBefore": 2,
+          "addedQty": 2,
+          "stockAfter": 4,
+          "hasAddition": true,
+          "detail": "+2 Botol (2 ➔ 4 Botol)"
+        }
+      ],
+      "summary": "[BRG-001] Kertas (Bahan Cetak): +25 Pax (40 ➔ 65) | [BRG-004] Keychain Panjang (Aksesoris): +20 Pcs (10 ➔ 30) | [BRG-008] Tinta LM (Light Magenta) (Tinta & Habis Pakai): +2 Botol (2 ➔ 4)",
+      "catatan": "Kiriman paket bahan cetak, Keychain Panjang & Tinta LM Botol dari gudang pusat"
+    },
+    {
+      "id": "OP-104",
+      "recordType": "STOCK_OPNAME",
+      "senderRole": "USER",
+      "label": "🛍️ Stock Opname (Cutoff: 2026-10-31)",
+      "cabang": "Cilacap",
+      "tanggal": "2026-10-31",
+      "cutoffDate": "2026-10-31",
+      "waktu": "14:30:00",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "10.00-15.00",
+      "nama": "Nazya",
+      "petugasBantu": "Saskia",
+      "kertasPax": 65,
+      "hangtagKecilPcs": 42,
+      "hangtagBesarPcs": 55,
+      "keychainPanjangPcs": 30,
+      "keychainBulatPcs": 35,
+      "plastikKecilIkat": 52,
+      "plastikBesarIkat": 60,
+      "tintaLmPct": 80,
+      "tintaLcPct": 75,
+      "tintaYPct": 20,
+      "tintaMPct": 65,
+      "tintaCPct": 70,
+      "tintaKPct": 85,
+      "lemGanciPcs": 18,
+      "itemNumericValues": {
+        "stk-kertas": 65,
+        "stk-hangtag-kecil": 42,
+        "stk-hangtag-besar": 55,
+        "stk-keychain-panjang": 30,
+        "stk-keychain-bulat": 35,
+        "stk-plastik-kecil": 52,
+        "stk-plastik-besar": 60,
+        "stk-tinta-lm": 80,
+        "stk-tinta-lc": 75,
+        "stk-tinta-y": 20,
+        "stk-tinta-m": 65,
+        "stk-tinta-c": 70,
+        "stk-tinta-k": 85,
+        "stk-lem": 18
+      },
+      "summary": "[BRG-001] Kertas (Bahan Cetak): 65 | [BRG-002] Hangtag Kecil (Aksesoris): 42 | [BRG-003] Hangtag Besar (Aksesoris): 55 | [BRG-004] Keychain Panjang (Aksesoris): 30 | [BRG-005] Keychain Bulat (Aksesoris): 35 | [BRG-006] Plastik Kecil (Kemasan): 52 | [BRG-007] Plastik Besar (Kemasan): 60 | [BRG-008] Tinta LM (Light Magenta) (Tinta & Habis Pakai): 80 | [BRG-009] Tinta LC (Light Cyan) (Tinta & Habis Pakai): 75 | [BRG-010] Tinta Y (Yellow) (Tinta & Habis Pakai): 20 | [BRG-011] Tinta M (Magenta) (Tinta & Habis Pakai): 65 | [BRG-012] Tinta C (Cyan) (Tinta & Habis Pakai): 70 | [BRG-013] Tinta K (Black) (Tinta & Habis Pakai): 85 | [BRG-014] Lem Ganci (Perlengkapan Booth): 18",
+      "catatan": "Laporan Stock Opname rutin Shift Pagi"
+    },
+    {
+      "id": "OP-201",
+      "recordType": "ABSEN_MUKA",
+      "subType": "MUKA_DATANG",
+      "label": "🤳 Absen Karyawan (Datang)",
+      "cabang": "Kediri",
+      "tanggal": "2026-10-30",
+      "waktu": "09:25:18",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "09.30-16.30",
+      "punctualityStatus": "TEPAT WAKTU",
+      "punctualityDetail": "Tepat Waktu (Jadwal 09.30-16.30)",
+      "nama": "Vino",
+      "lokasiWatermark": "2026-10-30 09:25:18 WIB • -7.816600, 112.011400",
+      "summary": "Absen Karyawan (Datang) • TEPAT WAKTU (Jadwal Shift Pagi: 09.30-16.30) • GPS (-7.816600, 112.011400)",
+      "catatan": "Hadir tepat waktu shift pagi kemarin"
+    },
+    {
+      "id": "OP-202",
+      "recordType": "ABSEN_MUKA",
+      "subType": "MUKA_PULANG",
+      "label": "🏡 Absen Karyawan (Pulang)",
+      "cabang": "Kediri",
+      "tanggal": "2026-10-30",
+      "waktu": "16:33:40",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "09.30-16.30",
+      "punctualityStatus": "TEPAT WAKTU",
+      "punctualityDetail": "Tepat Waktu / Memenuhi Jam Kerja (Jadwal 09.30-16.30)",
+      "nama": "Vino",
+      "lokasiWatermark": "2026-10-30 16:33:40 WIB • -7.816600, 112.011400",
+      "summary": "Absen Karyawan (Pulang) • TEPAT WAKTU (Jadwal Shift Pagi: 09.30-16.30) • GPS (-7.816600, 112.011400)",
+      "catatan": "Selesai jam kerja shift pagi kemarin"
+    },
+    {
+      "id": "OP-203",
+      "recordType": "CLOSE_STORE",
+      "subType": "CLOSE_BOOTH",
+      "label": "🌙 Close Store (2 Foto)",
+      "cabang": "Pekalongan",
+      "tanggal": "2026-10-30",
+      "waktu": "21:03:15",
+      "shift": "Shift Sore",
+      "shiftScheduleLabel": "15.00-21.00",
+      "nama": "Firdaus",
+      "lokasiWatermark": "2026-10-30 21:03:15 WIB • -6.888600, 109.675300",
+      "summary": "2 Foto Close Store Lengkap (Kamera & Printer Photobooth Dimatikan, Lampu Booth Mati & Pintu Depan Store Terkunci)",
+      "catatan": "Store Pekalongan tutup aman kemarin malam"
+    },
+    {
+      "id": "OP-204",
+      "recordType": "DAILY_REPORT",
+      "label": "📝 Laporan Keuangan Harian",
+      "cabang": "Kediri",
+      "tanggal": "2026-10-30",
+      "waktu": "16:28:00",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "09.30-16.30",
+      "nama": "Vino",
+      "cash": 640000,
+      "qris": 1150000,
+      "totalGross": 1790000,
+      "totalExpense": 42000,
+      "netOmzet": 1748000,
+      "expensesList": [
+        {
+          "desc": "Pengharum Ruangan 2 Kaleng",
+          "amount": 30000
+        },
+        {
+          "desc": "Kantong Sampah Booth",
+          "amount": 12000
+        }
+      ],
+      "rincianPengeluaran": "Pengharum Ruangan 2 Kaleng: Rp 30.000 | Kantong Sampah Booth: Rp 12.000",
+      "summary": "Cash: Rp 640.000 | QRIS: Rp 1.150.000 | Keluar: Rp 42.000 (Sheet Pengeluaran_Kas) | Bersih: Rp 1.748.000",
+      "catatan": "Laporan keuangan shift pagi kemarin."
+    },
+    {
+      "id": "OP-205",
+      "recordType": "STOCK_OPNAME",
+      "senderRole": "USER",
+      "label": "🛍️ Stock Opname (Cutoff: 2026-10-30)",
+      "cabang": "Pekalongan",
+      "tanggal": "2026-10-30",
+      "cutoffDate": "2026-10-30",
+      "waktu": "15:20:00",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "09.30-15.30",
+      "nama": "Kholil",
+      "petugasBantu": "Firdaus",
+      "kertasPax": 58,
+      "hangtagKecilPcs": 60,
+      "hangtagBesarPcs": 54,
+      "keychainPanjangPcs": 45,
+      "keychainBulatPcs": 50,
+      "plastikKecilIkat": 48,
+      "plastikBesarIkat": 55,
+      "tintaLmPct": 75,
+      "tintaLcPct": 78,
+      "tintaYPct": 60,
+      "tintaMPct": 70,
+      "tintaCPct": 72,
+      "tintaKPct": 80,
+      "lemGanciPcs": 22,
+      "itemNumericValues": {
+        "stk-kertas": 58,
+        "stk-hangtag-kecil": 60,
+        "stk-hangtag-besar": 54,
+        "stk-keychain-panjang": 45,
+        "stk-keychain-bulat": 50,
+        "stk-plastik-kecil": 48,
+        "stk-plastik-besar": 55,
+        "stk-tinta-lm": 75,
+        "stk-tinta-lc": 78,
+        "stk-tinta-y": 60,
+        "stk-tinta-m": 70,
+        "stk-tinta-c": 72,
+        "stk-tinta-k": 80,
+        "stk-lem": 22
+      },
+      "summary": "[BRG-001] Kertas (Bahan Cetak): 58 | [BRG-002] Hangtag Kecil (Aksesoris): 60 | [BRG-003] Hangtag Besar (Aksesoris): 54 | [BRG-004] Keychain Panjang (Aksesoris): 45 | [BRG-005] Keychain Bulat (Aksesoris): 50 | [BRG-006] Plastik Kecil (Kemasan): 48 | [BRG-007] Plastik Besar (Kemasan): 55 | [BRG-008] Tinta LM (Light Magenta) (Tinta & Habis Pakai): 75 | [BRG-009] Tinta LC (Light Cyan) (Tinta & Habis Pakai): 78 | [BRG-010] Tinta Y (Yellow) (Tinta & Habis Pakai): 60 | [BRG-011] Tinta M (Magenta) (Tinta & Habis Pakai): 70 | [BRG-012] Tinta C (Cyan) (Tinta & Habis Pakai): 72 | [BRG-013] Tinta K (Black) (Tinta & Habis Pakai): 80 | [BRG-014] Lem Ganci (Perlengkapan Booth): 22",
+      "catatan": "Laporan Stock Opname kemarin"
+    },
+    {
+      "id": "OP-206",
+      "recordType": "BARANG_DATANG",
+      "senderRole": "USER",
+      "label": "🚚 Barang Datang (Restock)",
+      "cabang": "Kediri",
+      "tanggal": "2026-10-30",
+      "incomingDate": "2026-10-30",
+      "waktu": "10:30:00",
+      "shift": "Shift Pagi",
+      "shiftScheduleLabel": "09.30-16.30",
+      "nama": "Vino",
+      "petugasBantu": "Kansa",
+      "incomingItemsDetail": [
+        {
+          "code": "BRG-001",
+          "name": "Kertas",
+          "category": "Bahan Cetak",
+          "unit": "Pax",
+          "stockBefore": 35,
+          "addedQty": 20,
+          "stockAfter": 55,
+          "hasAddition": true,
+          "detail": "+20 Pax (35 ➔ 55)"
+        },
+        {
+          "code": "BRG-005",
+          "name": "Keychain Bulat",
+          "category": "Aksesoris",
+          "unit": "Pcs",
+          "stockBefore": 25,
+          "addedQty": 30,
+          "stockAfter": 55,
+          "hasAddition": true,
+          "detail": "+30 Pcs (25 ➔ 55)"
+        }
+      ],
+      "summary": "[BRG-001] Kertas (Bahan Cetak): +20 Pax (35 ➔ 55) | [BRG-005] Keychain Bulat (Aksesoris): +30 Pcs (25 ➔ 55)",
+      "catatan": "Kiriman barang datang kemarin"
+    }
+  ]
+}

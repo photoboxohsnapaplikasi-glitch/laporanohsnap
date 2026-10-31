@@ -1,0 +1,41 @@
+{
+  "name": "oh-snap-photobox-5-cabang",
+  "version": "2.4.0",
+  "description": "Sistem Operasional & Laporan Keuangan Harian Oh Snap! Photobox 5 Cabang (Majenang, Cilacap, Pekalongan, Pemalang, Kediri) terintegrasi dengan Backend API, Database SQL, dan Google Apps Script (8 Sheet per Cabang).",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "migrate": "node migrations/run_migrations.js",
+    "migrate:fresh": "node migrations/run_migrations.js --fresh",
+    "seed": "node seeders/run_seeders.js",
+    "db:setup": "node migrations/run_migrations.js --fresh && node seeders/run_seeders.js",
+    "test": "node backend/test_api.js"
+  },
+  "keywords": [
+    "oh-snap-photobox",
+    "pos-photobox",
+    "absensi-kamera",
+    "laporan-keuangan-harian",
+    "stock-opname",
+    "google-apps-script",
+    "majenang",
+    "cilacap",
+    "pekalongan",
+    "pemalang",
+    "kediri"
+  ],
+  "author": "Oh Snap! Photobox Management",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
